@@ -24,8 +24,8 @@ gem 'aws-sdk-s3' #aws-s3'
 gem 'aws-sdk'
 #gem 'event-calendar', :require => 'event_calendar'
 
-gem 'rails', '5.2.1'
-gem 'railties', '5.2.1'
+gem 'rails', '5.2.0'
+gem 'railties', '5.2.0'
 gem  'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 #gem 'sprockets'
@@ -42,7 +42,7 @@ gem 'friendly_id', '~> 5.0.0'
 
 group :test, :development do
 #  gem 'factory_girl_rails'
-#  gem 'capybara'
+	gem 'capybara'
 #  gem 'mocha', '~> 1.1.0'
 end
 
