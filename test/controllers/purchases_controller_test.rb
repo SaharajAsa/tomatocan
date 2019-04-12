@@ -18,16 +18,9 @@ class PurchasesControllerTest < ActionController::TestCase
       get :new, params: { pricesold: 25, author_id: seller.id }
       assert_response :success
     end
-
     test "should_get_purchases_show" do
       sign_in users(:one)
       get :show, params: {id: @purchases.id }
       assert_response :success
     end
-
-    # test "should_create_new_purchase" do
-    #   sign_in users(:one)
-    #   post :create, params: {}
-    # end  
-    
 end

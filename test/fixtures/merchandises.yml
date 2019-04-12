@@ -9,9 +9,15 @@ one:
   merchpdf: user1.pdf
   buttontype: Buy
 two:
+<<<<<<< HEAD
   name: Donate $1.50!
   user_id: 2
   price: 1.5
+=======
+  name: Please give me two dollars
+  user_id: 1
+  price: 2
+>>>>>>> adb3c87b75dca116834be2667cebe511932ea9bb
   desc: MyText
   itempic: MyString
   merchmobi: Test.mobi
@@ -48,3 +54,4 @@ six:
   itempic: MyString
   audio: Test.mp3
   buttontype: Donate  
+

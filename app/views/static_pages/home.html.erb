@@ -17,7 +17,7 @@
         <%= link_to 'Sign Up', "/signup", :class => "btn btn-lg btn-primary" %>
     <% end %>
     <!--Livestream button-->
-    <%= link_to 'Host Discussion', new_event_path, :class => "btn btn-lg btn-primary", :style => "margin-left: 50px;" %>
+    <%= link_to 'Host A Show', new_event_path, :class => "btn btn-lg btn-primary", :style => "margin-left: 50px;" %>
     <% if !user_signed_in? %>
         <br><br><p id="haveAccount">Have an account? <%= link_to 'Sign in.', "/login" %></p>
     <% end %>
@@ -31,7 +31,7 @@
         <p>CrowdPublish.TV is for nonprofits, research centers, small businesses, etc. to broadcast live talk shows how they are doing their part to change the world. Patrons can support the missions of the talk show hosts by making donations during the livestream and when watching the replay. Try a Q&amp;A with your viewers, or collaborate with other discussion hosts to engage in a panel!</p>
     </div>
     <div class="col-md-7">
-        <%= render 'layouts/maincalendar' %>
+        <%= render 'layouts/maincalendar', collection: @events %>
     </div>
 </div>
 <div class="row lightBlock" id="offerPerks">
