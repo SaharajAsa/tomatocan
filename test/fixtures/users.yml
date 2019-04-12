@@ -4,10 +4,10 @@ one:
   id: 1
   name: Phineas
   email: fake@fake.com
-  ustreamvid: MyText
-  ustreamsocial: MyString
+  ustreamvid: ustreamvid
+  ustreamsocial: ustreamsoc
   permalink: user1
-  twitter: MyString
+  twitter: twitter
   facebook: MyString
   pinterest: MyString
   youtube: youtube
